@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: skyblue;
+}
+.main{
+	width: 1140px;
+	background-color: black;
+	margin: 0 auto;
+	padding: 55px 120px;
+
+}
+.main-header{
+	display: flex;
+	align-items: center;
+}
+.main-header-btn{
+	background-color: transparent;
+	outline: none;
+	border: none;
+	margin-right: 30px;
+}
+.main-header-text{
+	font-size: 22px;
+	font-weight: 700;
+	font-style: italic;
+	color: white;
+	margin-right: auto;
+}
+.main-header-nav-link{
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+	font-weight: 500;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	transition: color 0.5s;
+	margin-right: 12px;
+}
+.main-header-nav-link:hover{
+	color: skyblue;
+	border-bottom: 1.5px solid orange;
+}
+.trekking-section{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.trekking-section-info{
+	width: 45%;
+}
+.trekking-section-info-title{
+	font-size: 50px;
+	font-style: italic;
+	color: white;
+	font-weight: 700;
+	width: 15px;
+}
+.trekking-section-info-subtext{
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 30px;
+	color: white;
+	margin-top: 10px;
+
+}
+.trekking-section-photos{
+	width: 50%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.trekking-section-img{
+	width: 225px;
+	height: 350px;
+}
+.a{
+	height: 360px;
+}
+.trekking-section-info-btn{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-top: 20px;
+}
+.trekking-section-info-btn-subtext{
+	color: white;
+	font-weight: 400;
+	padding-right: 15px;
+	font-size: 16px;
+}
+.trekking-section-info-btn-icon{
+	transition: transform 0.5s;
+}
+.trekking-section-info-btn-icon:hover{
+	transform: translateX(20%);
+}
